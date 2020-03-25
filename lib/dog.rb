@@ -26,7 +26,7 @@ class Dog
   #end
   
   def self.print_all
-    puts @@names
+    puts @@names.uniq
   end
   
  
